@@ -1,0 +1,32 @@
+[
+  {
+    "frame_nmr": "986",
+    "car_id": "299",
+    "car_bbox": "[2257 1090 2743 1473]",
+    "license_plate_bbox": "[2415 1283 2605 1410]",
+    "license_plate_bbox_score": "0.69",
+    "license_number": "SC56DVP",
+    "license_number_score": "0.19"
+  },
+  {
+    "frame_nmr": "989",
+    "car_id": "299",
+    "car_bbox": "[2256 1091 2741 1474]",
+    "license_plate_bbox": "[2416 1294 2606 1411]",
+    "license_plate_bbox_score": "0.60",
+    "license_number": "SC56DMP",
+    "license_number_score": "0.21"
+  },
+  {
+    "frame_nmr": "991",
+    "car_id": "299",
+    "car_bbox": "[2256 1100 2744 1489]",
+    "license_plate_bbox": "[2412 1296 2593 1421]",
+    "license_plate_bbox_score": "0.61",
+    "license_number": "SC56DYP",
+    "license_number_score": "0.28"
+  }
+]
+
+
+

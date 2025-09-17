@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+.env*
+venv/
+
+# Logs
+*.log
+logs/
+
+# Virtualenvs
+pip-wheel-metadata/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Node/Frontend (Vite/React) ---
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/.DS_Store
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Data & Outputs ---
+# Large artifacts and generated files that shouldn't go to git
+out.mp4
+metrics.json
+metrics.txt
+sample.mp4
+*.csv
+*.cache
+
+# YOLO/weights/datasets (keep only pointers you need)
+models/**/*.pt
+models/**/labels.cache
+
+# Sort training data dumps
+sort/data/**/det/*.txt
+
+# Build artifacts
+*.egg-info/
+
+# Uvicorn reload cache
+.pytest_cache/
+
+# Large root artifacts
+yolov8n.pt
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.engine
+*.zip
+License Plate Recognition*.zip
+sample.mp4*
+*.bak
+
+
